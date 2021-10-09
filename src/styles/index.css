@@ -1,0 +1,59 @@
+@font-face {
+	font-family: pcdown;
+	src: URL('../fonts/pdown.ttf');
+}
+
+body {
+    background-color: #1b1b1b;
+    margin: 0
+}
+
+.navbar {
+    background-color: #0f0f0f;
+    height: 50px;
+    border-bottom: solid 1px #575757;
+}
+
+.navbuttons {
+    height: 50px;
+    width: 15vh;
+    background-color: transparent;
+    border: none;
+    font-family: Verdana, sans-serif;
+    color: rgb(177, 177, 177);
+    position: relative;
+    left: 75vh;
+    font-size: 2.5vh;
+    cursor: pointer;
+}
+
+.navbuttons:hover {
+    color: #6987af;
+}
+
+.navbuttons-borderleft {
+    border-left: solid 1px #575757;
+}
+
+.navbuttons-border {
+    border-left: solid 1px #575757;
+    border-right: solid 1px #575757;
+}
+
+.L1GHT {
+    position: absolute;
+    top: 30vh;
+    left: 50vh;
+    font-size: 20vh;
+    font-family: pcdown;
+    color: #969696;
+}
+
+.L1GHT-Small {
+    position: absolute;
+    bottom: 1vh;
+    left: 1vh;
+    font-size: 3vh;
+    font-family: pcdown;
+    color: #969696;
+}
