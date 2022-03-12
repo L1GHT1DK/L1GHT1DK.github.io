@@ -9,7 +9,7 @@ body {
 }
 
 .idx-space {
-    height: 2vh;
+    height: 1vh;
 }
 
 .idx-second {
@@ -30,6 +30,7 @@ body {
 }
 
 .idx-desc {
+    margin: 0;
     font-family: 'Agency FB', arial;
     color: #ffffff;
     padding: 3vh 0vh;
@@ -38,6 +39,7 @@ body {
 }
 
 .idx-projects {
+    border-radius: 0.5vh;
     width: 10vh;
     margin: 0;
     text-align: center;
@@ -51,120 +53,141 @@ body {
 .idx-p01 {
     position: absolute;
     left: 25%;
-    top: 140vh;
+    top: 125vh;
 }
 
 .idx-p02 {
     position: absolute;
     left: 35%;
-    top: 140vh;
+    top: 125vh;
 }
 
 .idx-p03 {
     position: absolute;
     left: 45%;
-    top: 140vh;
+    top: 125vh;
 }
 
 .idx-p04 {
     position: absolute;
     left: 55%;
-    top: 140vh;
+    top: 125vh;
 }
 
 .idx-p05 {
     position: absolute;
     left: 65%;
-    top: 140vh;
+    top: 125vh;
 }
 
 .idx-p06 {
     position: absolute;
     left: 25%;
-    top: 155vh;
+    top: 140vh;
 }
 
 .idx-p07 {
     position: absolute;
     left: 35%;
-    top: 155vh;
+    top: 140vh;
 }
 
 .idx-p08 {
     position: absolute;
     left: 45%;
-    top: 155vh;
+    top: 140vh;
 }
 
 .idx-p09 {
     position: absolute;
     left: 55%;
-    top: 155vh;
+    top: 140vh;
 }
 
 .idx-p10 {
     position: absolute;
     left: 65%;
-    top: 155vh;
+    top: 140vh;
 }
 
 .idx-p11 {
     position: absolute;
     left: 25%;
-    top: 170vh;
+    top: 155vh;
 }
 
 .idx-p12 {
     position: absolute;
     left: 35%;
-    top: 170vh;
+    top: 155vh;
 }
 
 .idx-p13 {
     position: absolute;
     left: 45%;
-    top: 170vh;
+    top: 155vh;
 }
 
 .idx-p14 {
     position: absolute;
     left: 55%;
-    top: 170vh;
+    top: 155vh;
 }
 
 .idx-p15 {
     position: absolute;
     left: 65%;
-    top: 170vh;
+    top: 155vh;
 }
 
 .idx-p16 {
     position: absolute;
     left: 25%;
-    top: 185vh;
+    top: 170vh;
 }
 
 .idx-p17 {
     position: absolute;
     left: 35%;
-    top: 185vh;
+    top: 170vh;
 }
 
 
 .idx-p18 {
     position: absolute;
     left: 45%;
-    top: 185vh;
+    top: 170vh;
 }
 
 .idx-p19 {
     position: absolute;
     left: 55%;
-    top: 185vh;
+    top: 170vh;
 }
 
 .idx-p20 {
     position: absolute;
     left: 65%;
-    top: 185vh;
+    top: 170vh;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: transparent;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: rgb(153, 153, 153);;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(153, 153, 153);;
 }
