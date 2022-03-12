@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+}
+
+.idx-header {
+    margin: 0;
+    background-image: linear-gradient(to right, rgb(145, 127, 67), rgb(196, 174, 102));
+    height: 2vh;
+}
+
+
+.idx-namespace {
+    color: rgb(161, 138, 73);
+    text-align: center;
+    margin: 0;
+    height: 20vh;
+    line-height: 20vh;
+    font-size: 20vh;
+    font-family: 'Agency FB', arial;
+}
+
+.idx-space {
+    height: 2vh;
+}
+
+.idx-first {
+    margin: 0;
+    height: 140vh;
+    background-image: linear-gradient(to right, rgb(145, 127, 67), rgb(196, 174, 102));
+}
+
+.idx-categories {
+    border-radius: 0.5vh;
+    width: 25vh;
+    height: 10vh;
+    line-height: 10vh;
+    margin: 0;
+    text-align: center;
+    font-size: 4vh;
+    padding: 1vh 4vh;
+    font-family: 'Agency FB', arial;
+    color: #ffffff;
+    border: solid 0.25vh #ffffff;
+}
+
+.idx-posters {
+    border: solid 0.25vh #ffffff;
+    width: 20vh;
+    height: 30vh;
+    align-items: center;
+    padding: 2vh 2vh;
+}
+
+
+.idx-postername {
+    margin: 0;
+    text-align: center;
+    padding: 0vh 0vh;
+    font-size: 5vh;
+    font-family: 'Agency FB', arial;
+    color: #ffffff;
+}
+
+.idx-desc {
+    margin: 0;
+    font-family: 'Agency FB', arial;
+    color: #ffffff;
+    padding: 3vh 0vh;
+    font-size: 10vh;
+    text-align: center;
+}
+
+.idx-p01 {
+    margin: 0;
+    position: absolute;
+    left: 5%;
+    top: 40vh;
+    line-height: 10vh;
+}
+
+.idx-p02 {
+    line-height: 5vh;
+    position: absolute;
+    left: 20%;
+    top: 40vh;
+}
+
+.idx-p03 {
+    line-height: 5vh;
+    position: absolute;
+    left: 35%;
+    top: 40vh;
+}
+
+.idx-p04 {
+    line-height: 10Vh;
+    position: absolute;
+    left: 50%;
+    top: 40vh;
+}
+
+.idx-p05 {
+    line-height: 10Vh;
+    position: absolute;
+    left: 65%;
+    top: 40vh;
+}
+
+.idx-p06 {
+    line-height: 10Vh;
+    position: absolute;
+    left: 80%;
+    top: 40vh;
+}
+
+.idx-p07 {
+    line-height: 10Vh;
+    margin: 0;
+    position: absolute;
+    left: 5%;
+    top: 80vh;
+}
+
+.idx-p08 {
+    line-height: 10Vh;
+    position: absolute;
+    left: 20%;
+    top: 80vh;
+}
+
+.idx-p09 {
+    line-height: 10Vh;
+    position: absolute;
+    left: 35%;
+    top: 80vh;
+}
+
+.idx-p10 {
+    line-height: 5Vh;
+    position: absolute;
+    left: 50%;
+    top: 80vh;
+}
+
+.idx-p11 {
+    line-height: 5Vh;
+    position: absolute;
+    left: 65%;
+    top: 80vh;
+}
+
+.idx-p12 {
+    line-height: 10Vh;
+    position: absolute;
+    left: 80%;
+    top: 80vh;
+}
+
+.idx-p13 {
+    line-height: 10Vh;
+    position: absolute;
+    left: 57.5%;
+    top: 120vh;
+}
+
+.idx-p14 {
+    line-height: 10Vh;
+    margin: 0;
+    position: absolute;
+    left: 27.5%;
+    top: 120vh;
+}
+
+.idx-p15 {
+    line-height: 10Vh;
+    position: absolute;
+    left: 42.5%;
+    top: 120vh;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: transparent;
+}
+  
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: rgb(196, 174, 102);;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(145, 127, 67);;
+}
