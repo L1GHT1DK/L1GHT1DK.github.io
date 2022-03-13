@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+}
+
+.idx-sortiment {
+    position: absolute;
+    top: 25vh;
+    left: 20%;
+}
+
+.idx-omos {
+    position: absolute;
+    top: 25vh;
+    left: 60%;
+}
+
+.idx-tilbud {
+    position: absolute;
+    top: 25vh;
+    left: 43%;
+}
+
+button {
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 10vh;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 0.25vh #ffffff;
+    font-family: 'Agency FB', arial;
+}
+
+button:hover {
+    color: rgb(192, 192, 192);
+}
+.idx-header {
+    margin: 0;
+    background-image: linear-gradient(to right, rgb(145, 127, 67), rgb(196, 174, 102));
+    height: 2vh;
+}
+
+
+.idx-namespace {
+    color: rgb(161, 138, 73);
+    text-align: center;
+    margin: 0;
+    height: 20vh;
+    line-height: 20vh;
+    font-size: 20vh;
+    font-family: 'Agency FB', arial;
+}
+
+.idx-space {
+    height: 4vh;
+}
+
+.idx-first {
+    margin: 0;
+    height: 20vh;
+    background-image: linear-gradient(to right, rgb(145, 127, 67), rgb(196, 174, 102));
+}
+
+.idx-second {
+    margin: 0;
+    height: 30vh;
+    background-image: linear-gradient(to right, rgb(145, 127, 67), rgb(196, 174, 102));  
+}
+
+.idx-third {
+    margin: 0;
+    height: 56vh;
+    background-image: linear-gradient(to right, rgb(145, 127, 67), rgb(196, 174, 102));  
+}
+
+.idx-categories {
+    border-radius: 0.5vh;
+    width: 25vh;
+    height: 10vh;
+    line-height: 10vh;
+    margin: 0;
+    text-align: center;
+    font-size: 4vh;
+    padding: 1vh 4vh;
+    font-family: 'Agency FB', arial;
+    color: #ffffff;
+    border: solid 0.25vh #ffffff;
+}
+
+.idx-posters {
+    border: solid 0.25vh #ffffff;
+    width: 20vh;
+    height: 30vh;
+    align-items: center;
+    padding: 2vh 2vh;
+}
+
+
+.idx-postername {
+    margin: 0;
+    text-align: center;
+    padding: 0vh 0vh;
+    font-size: 5vh;
+    font-family: 'Agency FB', arial;
+    color: #ffffff;
+}
+
+.idx-desc {
+    margin: 0;
+    font-family: 'Agency FB', arial;
+    color: #ffffff;
+    padding: 3vh 0vh;
+    font-size: 10vh;
+    text-align: center;
+}
+
+.idx-singleline {
+    line-height: 10vh;
+}
+
+.idx-dobbelline {
+    line-height: 5vh;
+}
+
+.idx-tripleline {
+    line-height: 4vh;
+}

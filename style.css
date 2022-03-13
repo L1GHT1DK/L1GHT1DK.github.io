@@ -40,7 +40,8 @@ body {
 
 .idx-projects {
     border-radius: 0.5vh;
-    width: 10vh;
+    width: 20vh;
+    height: 10vh;
     margin: 0;
     text-align: center;
     font-size: 4vh;
@@ -50,15 +51,19 @@ body {
     border: solid 0.25vh #ffffff;
 }
 
+.idx-oneline {
+    line-height: 10vh;
+}
+
 .idx-p01 {
     position: absolute;
-    left: 25%;
+    left: 15%;
     top: 125vh;
 }
 
 .idx-p02 {
     position: absolute;
-    left: 35%;
+    left: 30%;
     top: 125vh;
 }
 
@@ -70,13 +75,13 @@ body {
 
 .idx-p04 {
     position: absolute;
-    left: 55%;
+    left: 60%;
     top: 125vh;
 }
 
 .idx-p05 {
     position: absolute;
-    left: 65%;
+    left: 75%;
     top: 125vh;
 }
 
