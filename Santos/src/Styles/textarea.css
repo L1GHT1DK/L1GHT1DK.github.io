@@ -1,0 +1,38 @@
+.srp-rules {
+    padding: 2vh 2vh;
+    position: absolute;
+    top: 30vh;
+    left: 60vh;
+    max-width: 80vh;
+    max-height: 40vh;
+    width: 80vh;
+    height: 40vh;
+    border-width: 0.3vh;
+    border-style: solid;
+    text-align: center;
+    border-image: linear-gradient(to right, rgb(0, 183, 255), rgb(0, 75, 189)) 1;
+}
+
+.srp-rules:hover {
+    transition-duration: 2s;
+    border-width: 0.3vh;
+    border-style: solid;
+    border-image: linear-gradient(to left, rgb(0, 183, 255), rgb(0, 75, 189)) 1;
+}
+
+::-webkit-scrollbar {
+    width: 0.5vh;
+    background-color: transparent;
+}
+  
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 183, 255);;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(0, 75, 189);;
+}
