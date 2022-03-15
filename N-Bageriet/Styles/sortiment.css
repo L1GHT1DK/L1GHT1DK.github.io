@@ -132,3 +132,16 @@ button:hover {
 .idx-tripleline {
     line-height: 4vh;
 }
+
+.idx-footer {
+    text-align: center;
+    position: relative;
+    top: 1vh;
+    color: rgb(255, 255, 255);
+    font-family: 'Agency FB', arial;
+    text-decoration: none;
+}
+  
+.idx-nounderline {
+    text-decoration: none;
+}

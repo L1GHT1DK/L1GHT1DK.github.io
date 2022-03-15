@@ -9,6 +9,19 @@ body {
 	margin: 0;
 }
 
+.idx-footer {
+	text-align: center;
+	position: relative;
+	top: 2vh;
+	color: white;
+	font-family: 'Agency FB', arial;
+	text-decoration: none;
+}
+  
+.idx-nounderline {
+	text-decoration: none;
+}
+
 .srp-first {
 	background-color: transparent;
 	height: 85vh;
