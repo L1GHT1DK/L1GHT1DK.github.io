@@ -11,6 +11,7 @@ body {
 }
 
 .calculator-grid {
+  color: black;
   display: grid;
   justify-content: center;
   align-content: center;
@@ -20,6 +21,7 @@ body {
 }
 
 .calculator-grid > button {
+  color: black;
   cursor: pointer;
   font-size: 2rem;
   border: 1px solid rgb(139, 139, 139);
@@ -36,6 +38,7 @@ body {
 }
 
 .output {
+  color: black;
   grid-column: 1 / -1;
   background: linear-gradient(to right, #ffffff, #ffffff);
   display: flex;
@@ -49,12 +52,12 @@ body {
 }
 
 .output .previous-operand {
-  color: rgba(255, 255, 255, .75);
+  color: rgba(0, 0, 0, 0.75);
   font-size: 1.5rem;
 }
 
 .output .current-operand {
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 2.5rem;
 }
 
